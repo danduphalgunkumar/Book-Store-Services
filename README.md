@@ -19,8 +19,7 @@ Book-Store-Services  supports CURD & checkout price with promocode functionality
 # Steps To Run The Application
 <ul>
 <li>This project uses project Lombok. So, if you do not have Lombok plugins inserted into your IDE, please install it into your IDD.</li>
-<li>Now in your IDE, open the application.yaml file, change the spring datasource url, username and password. Right now the spring datasource url=”jdbc:mysql://localhost:3306/bookstore” which is likely to be same in your case too. If not please put on your datasource url. Right now Spring datasource name is “root” and password is “admin” which is likely to change in your case. Please put on your database username and password in these fields.</li>
-<li>Now you can run your application. The table “book” will be automatically created in “bookstoredb”. By default, it runs in port:8080. You can open up the swagger ui from  following url: http://localhost:8080/swagger-ui.html .</li>
+<li>Now you can run your application. The table “book” will be automatically created in “bookstoredb”. By default, it runs in port:8080. You can open up the swagger ui from  following url: **http://localhost:8080/swagger-ui.html** .</li>
 <li>You can also use jacoco plugins to generate unit test reports. For that go to the project root folder and run the following two commands in command prompt:
     <ul><li>mvn clean test</li>
     <li>mvn jacoco:report</li>
